@@ -28,6 +28,10 @@ body {
   font-size: large;
 }
 
+.carousel .control-dots {
+  margin: 2rem 0;
+}
+
 .carousel .control-dots .dot.selected{
   background: #ff7f32;
   outline: none;
@@ -91,21 +95,14 @@ body {
   .slider-button{
     font-size: 1.2rem;
     padding: 5px 12px;
+    margin-top: 65%;
   }
-  #info-1{
-    margin-top: 74%;
-  }
-  #info-2{
 
-  }
-  #info-3{
-    margin-top: 76%;
-  }
   .slider-icon-redes {
     display: none;
   }
   .carousel .control-dots {
-    margin: 5px 0;
+    margin: 1rem 0;
   }
   .carousel-slider .control-dots{
     bottom: 0px !important;

@@ -5,8 +5,11 @@ import { FaFacebookSquare, FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 
 import sl1 from '/assets/images/sliders/slider-1.png'
+import slm1 from '/assets/images/sliders/slider-mobile-1.png'
 import sl2 from '/assets/images/sliders/slider-2.png'
+import slm2 from '/assets/images/sliders/slider-mobile-2.png'
 import sl3 from '/assets/images/sliders/slider-3.png'
+import slm3 from '/assets/images/sliders/slider-mobile-3.png'
 
 function Slider () {
   return (
@@ -26,7 +29,10 @@ function Slider () {
         transitionTime={800}
       >
         <div>
-          <img src={sl1} alt='slider 1' />
+          <picture>
+            <source media='(max-width: 600px)' srcSet={slm1} />
+            <img src={sl1} alt='slider 1' />
+          </picture>
           <div className='slider-redes'>
             <Link
               to='contact'
@@ -58,7 +64,10 @@ function Slider () {
         </div>
 
         <div>
-          <img src={sl2} alt='slider 2' />
+          <picture>
+            <source media='(max-width: 600px)' srcSet={slm2} />
+            <img src={sl2} alt='slider 2' />
+          </picture>
           <div className='slider-redes'>
             <Link
               to='contact'
@@ -90,7 +99,10 @@ function Slider () {
         </div>
 
         <div>
-          <img src={sl3} alt='slider 3' />
+          <picture>
+            <source media='(max-width: 600px)' srcSet={slm3} />
+            <img src={sl3} alt='slider 3' />
+          </picture>
           <div className='slider-redes'>
             <Link
               to='contact'
