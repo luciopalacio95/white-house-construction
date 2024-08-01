@@ -1,0 +1,120 @@
+::selection {
+  background: #f1f1f0;
+  color: #ff7f32;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+body {
+  background: #F1F1F0;
+}
+
+#root{
+  margin-top: 5.7%;
+}
+
+.badge{
+  position: absolute;
+  background-color: #ff7f32;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 2px;
+  font-size: large;
+}
+
+.carousel .control-dots .dot.selected{
+  background: #ff7f32;
+  outline: none;
+}
+.slider-redes{
+  width: 20%;
+  position: absolute;
+  margin-top: -22%;
+  margin-left: 0.8%;
+  z-index: 2;
+}
+  li.slider{
+    text-decoration: none;
+    outline:none;
+  }
+.slider video{
+    width: 101%;
+    height: auto;
+    outline:none;
+    border: none;
+    text-decoration: none;
+  }
+
+.slider-button{
+  color: #ffffff;
+  background: #ff7f32;
+  border-radius: 3px;
+  border: none;
+  box-shadow: none;
+  font-size: 1.5rem;
+  padding: 5px 15px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.slider-icon-redes{
+  margin-top: 47%;
+  padding-left: 9%;
+} 
+
+.slider-icon-redes a{
+  color: #ff7f32;
+  font-size: 1.5rem;
+  text-decoration: none;
+  outline: none;
+  margin-right: 10%;
+}
+
+@media screen and (max-width:767px){
+  #root {
+    margin-top: 21%;
+  }
+  .slider-redes {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    margin-top: -94%;
+  }
+  .slider-button{
+    font-size: 1.2rem;
+    padding: 5px 12px;
+  }
+  #info-1{
+    margin-top: 74%;
+  }
+  #info-2{
+
+  }
+  #info-3{
+    margin-top: 76%;
+  }
+  .slider-icon-redes {
+    display: none;
+  }
+  .carousel .control-dots {
+    margin: 5px 0;
+  }
+  .carousel-slider .control-dots{
+    bottom: 0px !important;
+  }
+}
+
+
+@media screen and (min-width: 1200px) and (max-width:1400px) {
+  #root {
+    margin-top: 10%;
+  }
+}

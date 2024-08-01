@@ -1,0 +1,168 @@
+.form-content, .form, .form-row{
+    width: 96%;
+    background: transparent;
+}
+.form-inputs, .form-input, .form-label{
+    background:transparent;
+    color:#F1F1F0;
+    resize: none;
+}
+.form-label{
+    font-size: 1.4rem;
+}
+.form-row{
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+.form-inputs{
+    display: grid;
+    width: 100%;
+    padding: 0 10% 0 0px; 
+}
+
+.form-input{
+    font-size: 1rem;
+    min-height: 28px;
+    margin-top: 6px;
+    border: none;
+    border-bottom: 1px solid #F1F1F0;
+    outline: none;
+}
+
+.form-input:focus{
+    border-bottom: 2px solid #ff7f32;   
+}
+
+select option{
+    background:#373334;
+    color:#F1F1F0;
+}
+
+.form-input-btn{
+    border: 1px solid #F1F1F0;
+    background: transparent;
+    color: #F1F1F0;
+    font-size: 1.5rem;
+    padding: 7px 13px;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+}
+
+.form-input-btn:hover{
+    background: #ff7f32; 
+}
+
+#form-contain-btn{
+    display: block;
+    text-align: right;
+    width: 86.5%;
+}
+
+.input-error{
+    color: red;
+    font-size: 13px;
+    padding: 2px 0;
+    position: absolute;
+    margin-top: 4rem;
+    font-weight: 400;
+    font-style: italic;
+    animation-name: error;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-family: 'Montserrat';
+}
+
+@keyframes error{
+    from{
+        text-shadow: none;
+    }
+    to{
+        text-shadow: 1px 1px 7px black;
+    }
+}
+
+#comment ~ .input-error{
+    margin-top: 6rem;
+    padding: 0px 0;
+}
+
+    
+    .fa-bars {
+    color: #373334;
+    }
+
+    .menu-icon {
+    display: none;
+    }
+
+    button[disabled='true']{
+        cursor: not-allowed;
+    }
+
+    .spinner_boton {
+        animation: spin infinite 3s linear;
+        padding: 4%;
+        display:none;
+    }
+        
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+@media screen and (max-width: 960px) {
+   
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-60%, 45%);
+        font-size: 2.3rem;
+        cursor: pointer;
+    }
+
+    .fa-times {
+        color: #373334;
+        font-size: 2rem;
+    }
+
+    .nav-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 120px;
+    }
+
+    .form-content, .form, .form-row {
+        width: 100%;
+    }
+    .form-inputs {
+        display: block;
+        padding: 3% 0;
+    }
+    .form-row {
+        display: block;
+    }
+    .form-input {
+        width: 100%;
+    }
+    #form-contain-btn {
+        width: 100%;
+        margin-bottom: 15%;
+    }
+    .form-label {
+        font-size: 1.2rem;
+    }
+    .input-error {
+        position: initial;
+    }
+}

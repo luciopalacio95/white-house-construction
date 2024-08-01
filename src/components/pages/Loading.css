@@ -1,0 +1,26 @@
+.contenedor-preloader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    margin-top: -5.8%;
+    background: #f1f1f0;
+}
+
+.contenedor-preloader video{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor-preloader {
+        margin-top: -20%;
+    }
+    .contenedor-preloader video{
+        width: 70%;
+    }
+}
