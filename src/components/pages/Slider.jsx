@@ -20,7 +20,7 @@ function Slider () {
         showThumbs={false}
         showStatus={false}
         infiniteLoop
-        swipeable={false}
+        swipeable={false} 
         useKeyboardArrows
         margin={0}
         padding={0}
