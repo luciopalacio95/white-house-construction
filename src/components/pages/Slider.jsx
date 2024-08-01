@@ -4,9 +4,9 @@ import { Carousel } from 'react-responsive-carousel'
 import { FaFacebookSquare, FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 
-import sl1 from '../../assets/images/sliders/slider-1.png'
-import sl2 from '../../assets/images/sliders/slider-2.png'
-import sl3 from '../../assets/images/sliders/slider-3.png'
+import sl1 from '/assets/images/sliders/slider-1.png'
+import sl2 from '/assets/images/sliders/slider-2.png'
+import sl3 from '/assets/images/sliders/slider-3.png'
 
 function Slider () {
   return (

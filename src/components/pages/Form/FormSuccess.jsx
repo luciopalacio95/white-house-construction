@@ -1,6 +1,6 @@
 import React from 'react'
 import './FormSuccess.css'
-import icon from '../../../assets/images/iconos/pico.png'
+import icon from '/assets/images/iconos/pico.png'
 
 const FormSuccess = () => {
   return (

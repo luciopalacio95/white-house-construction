@@ -1,8 +1,8 @@
 // iconos casa
 import { useState } from 'react'
-import cama from '../../../assets/images/iconos/cama.svg'
-import ducha from '../../../assets/images/iconos/ducha.svg'
-import metro from '../../../assets/images/iconos/metros.svg'
+import cama from '/assets/images/iconos/cama.svg'
+import ducha from '/assets/images/iconos/ducha.svg'
+import metro from '/assets/images/iconos/metros.svg'
 import GaleryImage from '../GaleryImage'
 
 function CardItem (props) {
@@ -36,7 +36,6 @@ function CardItem (props) {
     return parseFloat(metros_cubierto) + parseFloat(metros_semicubierto)
   }
   const handleImage = () => {
-    console.log('handleImage')
     setAdvancedExampleOpen(true)
   }
   return (

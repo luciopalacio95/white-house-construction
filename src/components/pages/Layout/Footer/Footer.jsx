@@ -5,7 +5,7 @@ import { FaMapMarkerAlt } from 'react-icons/fa'
 import Form from '../../Form/Form'
 import FormSuccess from '../../Form/FormSuccess'
 import { Link } from 'react-scroll'
-import logo from '../../../../assets/images/logo.png'
+import logo from '/assets/images/logo.png'
 import './Footer.css'
 
 function Footer () {

@@ -3,8 +3,7 @@ import { BsList, BsX } from 'react-icons/bs'
 import { Link } from 'react-scroll'
 import './Navbar.css'
 import { IconContext } from 'react-icons/lib'
-
-import logo from '../../../../assets/images/logo.png'
+import logo from '/assets/images/logo.png'
 
 function NavBar () {
   const [click, setClick] = useState(false)

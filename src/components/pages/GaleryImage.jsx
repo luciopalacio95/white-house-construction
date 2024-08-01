@@ -10,7 +10,6 @@ import 'yet-another-react-lightbox/plugins/captions.css'
 import 'yet-another-react-lightbox/plugins/thumbnails.css'
 
 export default function GaleryImage (props) {
-  console.log(props)
   return (
     <>  <Lightbox
       open={props.advancedExampleOpen}
