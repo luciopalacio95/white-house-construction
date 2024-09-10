@@ -47,7 +47,6 @@ function CardItem (props) {
           advancedSlides={props.contenedor}
         />
         <div>
-
           <button className='cards__item__pic-wrap' type='button' onClick={handleImage}>
             <span className='badge'>{'Modelo ' + props.label}</span>
             <img src={props.src} alt='image' />
